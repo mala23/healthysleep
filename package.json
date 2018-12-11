@@ -1,0 +1,8 @@
+{
+  "name": "healthysleep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mala23/healthysleep.git",
+  "author": "Colin Nico Schmid <mail@mala23.me>",
+  "license": "MIT"
+}
