@@ -1,0 +1,10 @@
+#app {
+  font-family: interface, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: .8px;
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(226, 43.4%, 20.8%, 1);
+}
