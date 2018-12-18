@@ -4,16 +4,17 @@ import classnames from 'classnames'
 import styles from './style.css'
 
 const Section = (props) => (
-  <section>
+  <section id={props.name}>
     <h2>{props.title}</h2>
     <span></span>
-    <p class="section-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <p class="section-intro">{props.body}</p>
     <figure class="cycle">
     </figure>
     <figure class="atmospheric">
+      <img class="athmospheric-image" src={props.atmospheric}/>
     </figure>
     <figure class="illustration">
-      <img class="cycle-image" src="https://s3.eu-central-1.amazonaws.com/healthysleep/illustrations/caffeine_synapse.png" alt="Illustration: Adenosinrezeptoren einer Synapse"/>
+      <img class="illustration-image" src={props.illustration}/>
     </figure>
   </section>
 )

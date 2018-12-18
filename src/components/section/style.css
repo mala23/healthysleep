@@ -29,7 +29,11 @@ p {
   margin: 1rem 0 0 0;
 }
 
-.cycle-image {
+.illustration-image {
+  max-height: 60vh;
+}
+
+.atmospheric-image {
   max-height: 60vh;
 }
 
