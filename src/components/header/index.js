@@ -5,7 +5,7 @@ import styles from './style.css'
 
 const Header = (props) => (
   <header>
-    <h1>Healty Sleep</h1>
+    <h1>3 Gründe warum wir wach bleiben</h1>
   </header>
 )
 

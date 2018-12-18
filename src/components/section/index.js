@@ -11,7 +11,7 @@ const Section = (props) => (
     <figure class="cycle">
     </figure>
     <figure class="atmospheric">
-      <img class="athmospheric-image" src={props.atmospheric}/>
+      <img class="atmospheric-image" src={props.atmospheric}/>
     </figure>
     <figure class="illustration">
       <img class="illustration-image" src={props.illustration}/>
