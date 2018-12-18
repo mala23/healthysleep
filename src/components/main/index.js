@@ -6,13 +6,11 @@ import Section from '../section'
 import styles from './style.css'
 
 const Main = (props) => (
-  <Section/>
+  <main>
+    <Section title="Koffein – Wirkung auf Adenosinrezeptoren"/>
+    <Section title="Licht – Einfluss auf unseren Schlaf"/>
+    <Section title="Schlafmittel"/>
+  </main>
 )
-
-Main.defaultProps = {
-    className: undefined,
-    children: undefined,
-    image: '',
-}
 
 export default Main
