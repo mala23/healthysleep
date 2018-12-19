@@ -11,10 +11,8 @@ const Main = (props) => (
       name="caffeine"
       title="Koffein – Wirkung auf Adenosinrezeptoren"
       body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      illustration="https://s3.eu-central-1.amazonaws.com/healthysleep/illustrations/caffeine_synapse.png"
-      illustration-alt="Illustration: Adenosinrezeptoren einer Synapse"
-      atmospheric="https://s3.eu-central-1.amazonaws.com/healthysleep/illustrations/caffeine_athmospheric.png"
-      atmospheric-alt="x"
+      image-caffeinecontent="https://s3.eu-central-1.amazonaws.com/healthysleep/illustrations/caffeine_synapse.png"
+      image-caffeineeffect="https://s3.eu-central-1.amazonaws.com/healthysleep/illustrations/caffeine_athmospheric.png"
     />
     <Section 
       name="light"
@@ -26,8 +24,8 @@ const Main = (props) => (
       atmospheric-alt="x"
     />
     <Section 
-      name="pillz"
-      title="Schlafmittel"
+      name="entertainment"
+      title="Unterhaltung"
       body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
       illustration="https://s3.eu-central-1.amazonaws.com/healthysleep/illustrations/pillz_melatonin.png"
       illustration-alt="x"

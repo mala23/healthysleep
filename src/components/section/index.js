@@ -8,6 +8,8 @@ const Section = (props) => (
     <h2>{props.title}</h2>
     <span></span>
     <p class="section-intro">{props.body}</p>
+    <Figure/>
+    /*
     <figure class="cycle">
     </figure>
     <figure class="atmospheric">
@@ -16,6 +18,7 @@ const Section = (props) => (
     <figure class="illustration">
       <img class="illustration-image" src={props.illustration}/>
     </figure>
+    */
   </section>
 )
 
