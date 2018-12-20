@@ -12,8 +12,12 @@ header {
   font-size: 1.2rem;
   line-height: 1.6rem;
   letter-spacing: .8px;
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(226, 43.4%, 20.8%, 1);
+  /*
   color: hsla(226, 43.4%, 20.8%, 1);
   background-color: hsla(54.8, 68.1%, 63.1%, 0.5);
+  */
 }
 
 h1 {

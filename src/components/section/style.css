@@ -1,45 +1,48 @@
 section {
   width: 100vw;
-  height: 100vh;
-  padding: 4rem 6vw 0 6vw;
+  min-height: 100vh;
+  padding: 10rem 6vw 0 6vw;
   display: grid;
-  grid: 4rem 1fr 2fr / 1fr 1fr;
+  grid: 1fr 1fr / 1fr 1fr;
   align-items: start;
   justify-items: center;
 }
 
 h2 {
   place-self: start;
-  align-self: end;
+  align-self: start;
   font-weight: 600;
   font-size: 2rem;
   line-height: 2.1rem;
   letter-spacing: .5px;
+  grid-area: 1 / 1;
 }
 
 p {
-  margin: 1rem 0 0 0;
+  margin: 3rem 0 0 0;
+  max-width: 50%;
+  place-self: start;
+  grid-area: 1 / 1;
 }
 
-.cycle {
-  display: block;
-  width: 80%;
-  height: 66%;
-  margin: 1rem 0 0 0;
-}
-
-.illustration-image {
+img {
   max-height: 60vh;
-}
-
-.atmospheric-image {
-  max-height: 60vh;
-}
-
-.atmospheric {
   display: block;
-  width: 100%;
-  height: 90%;
   max-height: 60vh;
   margin: 2rem 0 0 0;
+}
+
+#caffeine-content {
+  grid-area: 2 / 1 / 2 / 3;
+  place-self: center;
+}
+
+#caffeine-effect {
+  grid-area: 1 / 2;
+}
+
+#caffeine-icon {
+  place-self: end;
+  align-self: end;
+  grid-area: 1 / 1;
 }

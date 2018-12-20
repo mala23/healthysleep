@@ -1,24 +1,27 @@
 import * as React from 'react'
 import classnames from 'classnames'
 
+import Figure from '../figure'
+
 import styles from './style.css'
+
 
 const Section = (props) => (
   <section id={props.name}>
     <h2>{props.title}</h2>
-    <span></span>
     <p class="section-intro">{props.body}</p>
-    <Figure/>
-    /*
-    <figure class="cycle">
-    </figure>
-    <figure class="atmospheric">
-      <img class="atmospheric-image" src={props.atmospheric}/>
-    </figure>
-    <figure class="illustration">
-      <img class="illustration-image" src={props.illustration}/>
-    </figure>
-    */
+    <Figure
+    name="caffeine-content"
+    image={props.imageCaffeinecontent}
+    />
+    <Figure
+    name="caffeine-effect"
+    image={props.imageCaffeineeffect}
+    />
+    <Figure
+    name="caffeine-icon"
+    image={props.iconCaffeine}
+    />
   </section>
 )
 
