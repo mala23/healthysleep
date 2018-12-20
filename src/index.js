@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import Header from './components/header'
 import Main from './components/main'
+require('./App.css');
 
 class HealthySleep extends React.Component {
     render() {

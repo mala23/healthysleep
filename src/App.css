@@ -1,0 +1,5 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  background-color: hsla(226, 43.4%, 20.8%, 1);
+}

@@ -1,7 +1,9 @@
+
 header {
   width: 100vw;
-  height: 80vh;
+  max-height: 80vh;
   padding: 4rem 6vw 0 6vw;
+  margin: 0 0 10rem 0;
   display: grid;
   grid: 4rem 1fr 2fr / 1fr 1fr;
   align-items: start;
@@ -14,15 +16,26 @@ header {
   letter-spacing: .8px;
   color: hsla(0, 0%, 100%, 1);
   background-color: hsla(226, 43.4%, 20.8%, 1);
-  /*
-  color: hsla(226, 43.4%, 20.8%, 1);
-  background-color: hsla(54.8, 68.1%, 63.1%, 0.5);
-  */
+  z-index: 0;
 }
 
 h1 {
   font-weight: 600;
   font-size: 3rem;
   letter-spacing: .5px;
-  grid-area: 1 / 1 / 1 / 3;
+  grid-area: 1 / 1 / 1 / 4;
 }
+
+#header-animation {
+  grid-area: 2 / 2;
+}
+
+#header-illu {
+  grid-area: 3 / 1 / 4 / 2;
+  width: 70%;
+  align-self: start;
+  place-self: start;
+  margin: none;
+}
+
+
